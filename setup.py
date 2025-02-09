@@ -48,7 +48,7 @@ def main():
         "termcolor",
         "tqdm",
         "pycocotools",
-        "lap==0.4.0",
+        "lap",
         "motmetrics==1.2.5",
         "omegaconf==2.3.0",
         "pillow<=9.3.0",
