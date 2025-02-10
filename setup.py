@@ -54,7 +54,7 @@ def main():
         "pillow<=9.3.0",
         "detection-tools==0.3",
         "scikit-image",
-        "nuscenes-devkit==1.1.10",
+        "nuscenes-devkit",
     ]
 
     model_zoo_version = "2.14.0"
