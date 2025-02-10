@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # from importlib.metadata import PackageNotFoundError, version
 
 from setuptools import find_packages, setup
