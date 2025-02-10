@@ -61,6 +61,7 @@ def main():
 
     package_data = {
         "hailo_model_zoo": [
+            "cfg/**/*.yaml",
             "cfg/base/*.yaml",
             "cfg/networks/*.yaml",
             "cfg/alls/**/*.alls",
