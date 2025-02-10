@@ -53,7 +53,7 @@ def main():
         "omegaconf==2.3.0",
         "pillow<=9.3.0",
         "detection-tools==0.3",
-        "scikit-image==0.19.3",
+        "scikit-image",
         "nuscenes-devkit==1.1.10",
     ]
 
