@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from importlib.metadata import PackageNotFoundError, version
+# from importlib.metadata import PackageNotFoundError, version
 
 from setuptools import find_packages, setup
 
