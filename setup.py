@@ -6,19 +6,19 @@ from setuptools import find_packages, setup
 CUR_DFC_VERSION = "v3.30.0"
 package_name = "hailo-dataflow-compiler"
 
-try:
-    dfc_version = version(package_name)
-    if dfc_version != CUR_DFC_VERSION:
-        print(
-            f"Warning! The current version of the Dataflow Compiler is {dfc_version}.\n"
-            f"Current Hailo-Model-Zoo works best with DFC version {CUR_DFC_VERSION}. Please consider updating your DFC"
-        )
-except PackageNotFoundError:
-    raise PackageNotFoundError(
-        f"\nThe Dataflow Compiler package {package_name!r} was not found.\n"
-        f"Please verify working in the correct virtualenv.\n"
-        f"If you are not an Hailo customer, please visit us at https://hailo.ai/"
-    ) from None
+# try:
+#     dfc_version = version(package_name)
+#     if dfc_version != CUR_DFC_VERSION:
+#         print(
+#             f"Warning! The current version of the Dataflow Compiler is {dfc_version}.\n"
+#             f"Current Hailo-Model-Zoo works best with DFC version {CUR_DFC_VERSION}. Please consider updating your DFC"
+#         )
+# except PackageNotFoundError:
+#     raise PackageNotFoundError(
+#         f"\nThe Dataflow Compiler package {package_name!r} was not found.\n"
+#         f"Please verify working in the correct virtualenv.\n"
+#         f"If you are not an Hailo customer, please visit us at https://hailo.ai/"
+#     ) from None
 
 try:
     import cpuinfo
